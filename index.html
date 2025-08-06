@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+<div class="max-w-6xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">🛍️ Product Listing</h1>
+    <div class="mb-4">
+        <label for="categoryFilter" class="block mb-2 font-medium">Filter by Category:</label>
+        <select id="categoryFilter" class="p-2 border rounded w-64"></select>
+    </div>
+
+    <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+</div>
+
+<!-- Modal -->
+<div id="productModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+    <div id="modalContent" class="relative bg-white rounded-lg shadow-xl w-full max-w-md p-6">
+        <button
+                id="modalClose"
+                class="absolute top-3 right-3 w-9 h-9 flex items-center justify-center bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-full shadow-md transition duration-200"
+                aria-label="Close modal"
+        >✖</button>
+
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<script defer src="./productViewer.js"></script>
+</body>
+</html>

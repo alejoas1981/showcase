@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Retro Sunglasses",
+    "price": 29.99,
+    "description": "Stylish retro sunglasses for everyday use.",
+    "category": "accessories",
+    "image": "./images/retro_sunglasses.png"
+  },
+  {
+    "id": 2,
+    "title": "Leather Backpack",
+    "price": 89.99,
+    "description": "Handmade leather backpack with lots of space.",
+    "category": "bags",
+    "image": "./images/leather_backpack.png"
+  },
+  {
+    "id": 3,
+    "title": "White Sneakers",
+    "price": 59.99,
+    "description": "Comfortable and durable white sneakers.",
+    "category": "shoes",
+    "image": "./images/white_sneakers.png"
+  },
+  {
+    "id": 4,
+    "title": "Digital Watch",
+    "price": 45.00,
+    "description": "Waterproof digital watch with LED display.",
+    "category": "accessories",
+    "image": "./images/digital_watch.png"
+  }
+]
